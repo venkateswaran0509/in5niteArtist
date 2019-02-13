@@ -8,9 +8,9 @@ setInterval(
   frequency
 )
 
-let c1 = createCanvas({width:"1920", height: "850"})
-let c2 = createCanvas({width:"1920", height: "850"})
-let c3 = createCanvas({width:"1920", height: "850"})
+let c1 = createCanvas({width: $(window).width(), height: $(window).height()})
+let c2 = createCanvas({width: $(window).width(), height: $(window).height()})
+let c3 = createCanvas({width: $(window).width(), height: $(window).height()})
 
 let tela   = c1.canvas;
 let canvas = c1.context;
